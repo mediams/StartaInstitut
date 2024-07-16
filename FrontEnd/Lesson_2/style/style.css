@@ -18,6 +18,8 @@ p2{
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 3px dashed rgb(98, 0, 255);
     border-top: 3px dotted rgb(0, 0, 0);
+    /* margin: 100px; */
+    margin
 }
 p3{
     color: blue;
