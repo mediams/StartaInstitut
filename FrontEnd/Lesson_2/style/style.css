@@ -5,7 +5,7 @@ p{
 /*     border-style: solid;/*стиль границы*/ 
 /*     border-color: rgb(253, 226, 190);/* цвет  границы*/ 
     border: 3px solid red;
-    border-radius: 10px;/* Загругл*/
-    border-top-left-radius: 3px;/*  */
-    border-bottom-right-radius: 3px;/*  */
+    border-radius: 10px;/* Загругление*/
+    border-top-left-radius: 3px;/* Загругление*/
+    border-bottom-right-radius: 3px;/* Загругление*/
 }
