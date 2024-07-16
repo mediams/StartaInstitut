@@ -44,6 +44,7 @@ p{
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 3px dashed red;
     width: 500px;
+    padding: 5px;
     margin: 0px 10px;
 }
 .hobbys{
@@ -55,9 +56,9 @@ p{
     border-bottom: 3px dashed rgb(98, 0, 255);
     border-top: 3px dotted rgb(0, 0, 0);
     /* margin: 100px; */
-    margin: -5px 30px;/* top-bottom / left right*/
-    padding: 5px;
     width: 500px;
+    padding: 5px;
+    margin: 0px 10px;
 }
 .Ziel{
     color: rgb(255, 255, 255);
@@ -67,7 +68,4 @@ p{
     border-top-left-radius: 3px;/* Загруглене*/
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 10px double rgb(0, 255, 55);
-    margin: -5px 90px; /* top-bottom / left right / bottom*/
-    padding: 10px;
-    width: 500px;
 }
