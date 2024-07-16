@@ -7,7 +7,7 @@ p{
     margin: 20px 90px 70px 100px; /* top-bottom / left right / bottom*/  /* Внунтренние отступы */
     padding: 1px; /* Внутренние отступы */
 }
-p1{
+.one{
     color: blue;
     background-color: rgb(250, 223, 223);
 /*     border-width: 3px;  Ширина границы*/ 
