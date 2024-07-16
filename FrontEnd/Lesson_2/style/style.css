@@ -69,3 +69,7 @@ p{
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 10px double rgb(0, 255, 55);
 }
+img{
+    width: 200px;
+    height: 200px;
+}
