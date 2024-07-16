@@ -19,7 +19,7 @@ p2{
     border-bottom: 3px dashed rgb(98, 0, 255);
     border-top: 3px dotted rgb(0, 0, 0);
     /* margin: 100px; */
-    margin
+    margin: 20px 50px;/* top-bottom / left right*/
 }
 p3{
     color: blue;
@@ -29,4 +29,5 @@ p3{
     border-top-left-radius: 3px;/* Загругление*/
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 3px dashed red;
+    margin: 20px 90px 70px; /* top-bottom / left right / bottom*/
 }
