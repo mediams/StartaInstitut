@@ -10,6 +10,9 @@ header {
     text-align: center;
     padding: 1em 0;
 }
+p{
+    margin: 0px;
+}
 .div-block-1{
     min-height: 200px;
     background-color: #F2F2F2;
