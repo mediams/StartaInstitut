@@ -21,7 +21,8 @@ p{
 .about-div{
     color: blue;
     background-color: antiquewhite;
-    border
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .hobbys-div{
     color: blue;
