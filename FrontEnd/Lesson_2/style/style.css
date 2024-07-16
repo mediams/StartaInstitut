@@ -6,6 +6,14 @@
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+}
+div{
+    blo
+    text-align: center;
+    width: 800px;
+}
 p{
     margin: 20px 90px 70px 100px; /* top-bottom / left right / bottom*/  /* Внунтренние отступы */
     padding: 1px; /* Внутренние отступы */
