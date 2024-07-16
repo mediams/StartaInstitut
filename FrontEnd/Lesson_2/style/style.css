@@ -8,5 +8,5 @@ p{
     border-radius: 10px;/* Загругление*/
     border-top-left-radius: 3px;/* Загругление*/
     border-bottom-right-radius: 3px;/* Загругление*/
-    border-bottom: ;
+    border-bottom: 3px dashed red;
 }
