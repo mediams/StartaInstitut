@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+h1{
+    text-align: center;
+}
 p{
     margin: 20px 90px 70px 100px; /* top-bottom / left right / bottom*/  /* Внунтренние отступы */
     padding: 1px; /* Внутренние отступы */
@@ -54,7 +57,7 @@ p{
     border-top-left-radius: 3px;/* Загруглене*/
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 10px double rgb(0, 255, 55);
-    margin: -5px 90px 70px; /* top-bottom / left right / bottom*/
+    margin: -5px 90px; /* top-bottom / left right / bottom*/
     padding: 10px;
     width: 500px;
 }
