@@ -51,6 +51,11 @@ a:hover {
     /* text-align: center; */
     width: 800px;
 }
+.main-container{
+    margin: 0 auto;
+    /* text-align: center; */
+    width: 800px;
+}
 .reset-link {
     color: inherit;
     text-decoration: none;
