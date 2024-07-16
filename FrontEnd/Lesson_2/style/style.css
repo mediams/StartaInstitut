@@ -11,12 +11,13 @@ p1{
     border-bottom: 3px dashed red;
 }
 p2{
-    color: blue;
-    background-color: rgb(250, 223, 223);
+    color: rgb(0, 255, 64);
+    background-color: rgb(255, 8, 8);
     border-radius: 10px;/* Загругление*/
     border-top-left-radius: 3px;/* Загругление*/
     border-bottom-right-radius: 3px;/* Загругление*/
-    border-bottom: 3px dashed red;
+    border-bottom: 3px dashed rgb(98, 0, 255);
+    border-top: 3px dotted rgb(0, 0, 0);
 }
 p3{
     color: blue;
