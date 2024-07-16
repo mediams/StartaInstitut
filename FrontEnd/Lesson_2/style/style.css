@@ -7,8 +7,17 @@ p{
     margin: 20px 90px 70px 100px; /* top-bottom / left right / bottom*/  /* Внунтренние отступы */
     padding: 1px; /* Внутренние отступы */
 }
-.about-dif{
+.about-div{
     color: blue;
+    background-color: antiquewhite;
+}
+.hobbys-div{
+    color: blue;
+    background-color: rgb(228, 250, 215);
+}
+.Ziel-div{
+    color: blue;
+    background-color: rgb(215, 242, 250);
 }
 .about{
     color: blue;
