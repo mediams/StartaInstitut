@@ -19,9 +19,9 @@ p{
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 3px dashed red;
     width: 500px;
-    margin: 0px 30px;
+    margin: 0px 10px;
 }
-p2{
+.two{
     color: rgb(0, 255, 64);
     background-color: rgb(255, 8, 8);
     border-radius: 10px;/* Загругление*/
@@ -30,8 +30,9 @@ p2{
     border-bottom: 3px dashed rgb(98, 0, 255);
     border-top: 3px dotted rgb(0, 0, 0);
     /* margin: 100px; */
-    margin: 10px 50px;/* top-bottom / left right*/
+    margin: 10px 30px;/* top-bottom / left right*/
     padding: 5px;
+    width: 500px;
 }
 #p3{
     color: rgb(255, 255, 255);
