@@ -1,5 +1,6 @@
 p{
     margin: 20px 90px 70px 100px; /* top-bottom / left right / bottom*/  /* Внунтренние отступы */
+    padding: 1px; /* Внутренние отступы */
 }
 p1{
     color: blue;
@@ -23,6 +24,7 @@ p2{
     border-top: 3px dotted rgb(0, 0, 0);
     /* margin: 100px; */
     margin: 20px 50px;/* top-bottom / left right*/
+    padding: 5px;
 }
 p3{
     color: rgb(255, 255, 255);
@@ -33,4 +35,5 @@ p3{
     border-bottom-right-radius: 3px;/* Загругление*/
     border-bottom: 10px double rgb(0, 255, 55);
     margin: 20px 90px 70px; /* top-bottom / left right / bottom*/
+    padding: 10px;
 }
