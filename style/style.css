@@ -11,15 +11,19 @@ header {
     padding: 1em 0;
 }
 .div-block-1{
+    min-height: 200px;
     background-color: #F2F2F2;
 }
 .div-block-2{
+    min-height: 100px;
     background-color: #B2DFDB;
 }
 .div-block-3{
+    min-height: 150px;
     background-color: #FF7043;
 }
 .div-block-4{
+    min-height: 200px;
     background-color: #ECEFF1;
 
 }
