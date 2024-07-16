@@ -1,9 +1,26 @@
-p{
+p1{
     color: blue;
     background-color: rgb(250, 223, 223);
-/*     border-width: 3px; /*Ширина границы*/ 
-/*     border-style: solid;/*стиль границы*/ 
-/*     border-color: rgb(253, 226, 190);/* цвет  границы*/ 
+/*     border-width: 3px;  Ширина границы*/ 
+/*     border-style: solid; стиль границы*/ 
+/*     border-color: rgb(253, 226, 190); цвет  границы*/ 
+    border: 3px solid red;
+    border-radius: 10px;/* Загругление*/
+    border-top-left-radius: 3px;/* Загругление*/
+    border-bottom-right-radius: 3px;/* Загругление*/
+    border-bottom: 3px dashed red;
+}
+p2{
+    color: blue;
+    background-color: rgb(250, 223, 223);
+    border-radius: 10px;/* Загругление*/
+    border-top-left-radius: 3px;/* Загругление*/
+    border-bottom-right-radius: 3px;/* Загругление*/
+    border-bottom: 3px dashed red;
+}
+p3{
+    color: blue;
+    background-color: rgb(250, 223, 223);
     border: 3px solid red;
     border-radius: 10px;/* Загругление*/
     border-top-left-radius: 3px;/* Загругление*/
