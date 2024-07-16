@@ -10,6 +10,19 @@ header {
     text-align: center;
     padding: 1em 0;
 }
+.div-block-1{
+    background-color: #F2F2F2;
+}
+.div-block-2{
+    background-color: #B2DFDB;
+}
+.div-block-3{
+    background-color: #FF7043;
+}
+.div-block-4{
+    background-color: #ECEFF1;
+
+}
 main {
     padding: 20px;
 }
@@ -33,7 +46,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.main1{
+.container{
     margin: 0 auto;
     /* text-align: center; */
     width: 800px;
@@ -41,5 +54,4 @@ a:hover {
 .reset-link {
     color: inherit;
     text-decoration: none;
-    cursor: auto;
 }
