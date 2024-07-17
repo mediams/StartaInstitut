@@ -18,7 +18,7 @@ p{
     background-color: #F2F2F2;
 }
 .div-block-2{
-    min-height: 200px;
+    min-height: 100px;
     background-color: #B2DFDB;
 }
 .div-block-3{
@@ -39,13 +39,13 @@ h1 {
 h2 {
     color: #000000;
 }
-ul {
+/* ul {
     list-style-type: none;
     padding: 0;
-}
-li {
+} */
+/* li {
     margin: 10px 0;
-}
+} */
 a {
     text-decoration: none;
     color: #4CAF50;

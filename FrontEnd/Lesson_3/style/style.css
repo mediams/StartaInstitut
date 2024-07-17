@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
 } */
-
+ul {
+    list-style-type: initial;
+    /* padding: initial; */
+}
 .list{
     list-style-type: decimal;
     list-style-type: decimal-leading-zero;
@@ -11,4 +14,7 @@
     list-style-type: upper-roman;
     list-style-image: url(../img/AC3381DA-883C-448F-81C8-AB7345F75D0D.png);
     /* list-style: none; */
+}
+.minus{
+    text-decoration: underline;
 }
