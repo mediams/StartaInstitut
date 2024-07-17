@@ -22,3 +22,48 @@ ul {
 .minus{
     text-decoration: underline;
 }
+.unterstrich{
+    text-decoration: line-through;
+}
+th{
+    padding: 5px;
+}
+td{
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+}
+.my-table tr:last-child{
+    background-color: blue;
+    text-decoration: line-through;
+    color: aliceblue;
+}
+.my-table tr:first-child{
+    background-color: brown;
+}
+.my-table tr:nth-child(3){
+    background-color: aquamarine;
+}
+.my-table tr:nth-child(even){
+    background-color: blueviolet;
+}
+.my-table2 td:nth-child(4n-1){
+    background-color: aqua;
+}
+.my-table2 td:nth-child(4n-2){
+    background-color: rgb(0, 255, 64);
+}
+.my-table2 td:nth-child(4n-3){
+    background-color: rgb(255, 0, 34);
+}
+.my-table2 td:nth-child(4n){
+    background-color: rgb(200, 255, 0);
+}
+.my-table3 tr {
+    color: rgb(0, 0, 0); /* Применяем цвет текста к строкам таблицы */
+}
+
+.my-table3 td, .my-table3 th {
+    padding: 5px 15px 5px 15px; /* Применяем padding к ячейкам таблицы */
+}
