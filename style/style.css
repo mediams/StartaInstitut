@@ -39,10 +39,14 @@ h1 {
 h2 {
     color: #000000;
 }
-/* ul {
+ul {
     list-style-type: none;
-    padding: 0;
-} */
+    /* padding: 0; */
+}
+ol{
+    margin-top: 0;
+    padding-top: 0;
+}
 /* li {
     margin: 10px 0;
 } */
