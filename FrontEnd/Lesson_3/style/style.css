@@ -60,10 +60,18 @@ table{
 .my-table2 td:nth-child(4n){
     background-color: rgb(200, 255, 0);
 }
+.my-table3{
+    border-collapse: collapse;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 .my-table3 tr {
     color: rgb(0, 0, 0); /* Применяем цвет текста к строкам таблицы */
 }
 
 .my-table3 td, .my-table3 th {
     padding: 5px 15px 5px 15px; /* Применяем padding к ячейкам таблицы */
+    border: 1px solid #ddd;
 }
