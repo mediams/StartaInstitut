@@ -8,10 +8,13 @@ header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 2px 0;
 }
 p{
-    margin: 0px;
+    margin: 10px;
+}
+div{
+    padding: 10px;
 }
 .div-block-1{
     min-height: 200px;
