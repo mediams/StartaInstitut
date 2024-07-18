@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,13 +39,13 @@ div{
 
 }
 .footer{
-    min-height: 40px;
+    min-height: 60px;
     background-color: #444444;
     color: #929292;
     text-align: right;
     display: flex; /* Используем Flexbox */
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center; /* Центрирование по вертикали */
+    justify-content: flex-end; /* Центрирование по горизонтали справа */
+    align-items: flex-end; /* Центрирование по вертикали снизу */
 }
 main {
     padding: 20px;
@@ -51,6 +56,12 @@ h1 {
 h2 {
     color: #000000;
 }
+h3{
+    margin: 10px;
+}
+h4{
+    margin: 20px 0;
+}
 ul {
     list-style-type: none;
     /* padding: 0; */
@@ -59,9 +70,12 @@ ol{
     margin-top: 0;
     padding-top: 10px;
 }
-/* li {
-    margin: 10px 0;
-} */
+li {
+    /* list-style-type: initial; */
+    margin: 5px;
+        /* padding: initial; */
+        /* margin: 10px 0; */
+}
 a {
     text-decoration: none;
     color: #4CAF50;

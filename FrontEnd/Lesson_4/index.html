@@ -27,7 +27,7 @@
     </div>
     <div class="div-block-2">
         <div class="container">
-            <h3 style="text-align: center; color: #fd3b00;">Работает относительно родительского элемента или относительно данных из браузера</h3>
+            <h3 style="text-align: center; color: #fd3b00;">Единица измерения "em" работает относительно родительского элемента или относительно данных из браузера</h3>
             <h4 style="color: #ff3c00;">Единица <b>em</b> зависит от размера шрифта родительского элемента. Например, если родительский элемент имеет размер шрифта в 16px, то 1em в дочернем элементе также будет равен 16px. Если вы зададите 2em, это будет равно 32px. <br>Это удобно, когда нужно масштабировать элементы относительно шрифта их непосредственного родителя.
                 Изменение размера шрифта у родителя приведёт к масштабированию всех дочерних элементов, использующих <b>em</b> в своих стилях.</h4>
             <div ><b>Размер по умолчанию </b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eaque perferendis at pariatur possimus minima beatae quidem sed saepe eius esse dolore quaerat, quasi expedita necessitatibus tempora maiores assumenda facere!
@@ -43,7 +43,7 @@
     </div>
     <div class="div-block-3">
         <div class="container">
-            <h3 style="text-align: center; color: white;">Работает относительно родительского элемента или относительно данных из браузера</h3>
+            <h3 style="text-align: center; color: white;">Единица измерения "rem" работает относительно родительского элемента или относительно данных из браузера</h3>
             <h4 style="color: white;">Единица <b>rem</b> всегда относится к размеру шрифта на корневом элементе (html). Например, если в корневом элементе установлен размер шрифта в 18px, то 1rem будет равен 18px во всём документе, независимо от размера шрифта родителей. <br>Это делает <b>rem</b> очень удобным для создания консистентного масштабирования интерфейса, так как изменения в размерах шрифтов или отступов будут одинаково влиять на все элементы, использующие <b>rem</b>.</h4>
             <h4>Не зависит от родительскольсеого элемента</h4>
             <div ><b>Размер по умолчанию </b><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum eaque perferendis at pariatur possimus minima beatae quidem sed saepe eius esse dolore quaerat, quasi expedita necessitatibus tempora maiores assumenda facere!
@@ -58,13 +58,93 @@
     </div>
     <div class="div-block-4">
         <div class="container">
-            <p></p>
+            <p><h5>Свойство box-sizing в CSS определяет, как будут рассчитываться размеры элементов. Существует два основных значения для этого свойства: content-box и border-box.</h5>
+                <h3 style="text-align: center;">Принцип работы box-sizing</h3>
+                <ol>
+                    <li><b>content-box (значение по умолчанию):</b>
+                        <ul>
+                            <li>Размер элемента (ширина и высота) применяется только к содержимому элемента, не включая внутренние отступы (padding), рамки (border) или внешние отступы (margin).</li>
+                            <li>Если у элемента есть рамка и внутренние отступы, они добавляются к финальному размеру элемента, делая его визуально больше.</li>
+                        </ul>
+                        
+                    </li>
+                    <li><b>border-box:</b>
+                        <ul>
+                            <li>Размер элемента (ширина и высота) включает содержимое, внутренние отступы и рамки, но не включает внешние отступы.</li>
+                            <li>Это означает, что установка ширины и высоты элемента действительно задаст эти размеры для всей видимой области элемента, включая его рамки и внутренние отступы.</li>
+                        </ul>
+                    </li>
+                </ol>
+                <h3 style="text-align: center;">Пример использования box-sizing: border-box;</h3>    
+                <pre><code>
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+            </code></pre>
+            <ul>
+                <li><b>*</b> — это универсальный селектор, который применяется ко всем элементам на странице<br></li>
+                <li><b>margin: 0; и padding: 0;</b> — обнуляют внешние и внутренние отступы для всех элементов, что помогает избежать неожиданных отступов, добавляемых браузером по умолчанию<br></li>
+                <li><b>box-sizing: border-box;</b> — задаёт, что ширина и высота всех элементов будут включать содержимое, рамки и внутренние отступы. Это упрощает работу с макетами, потому что размеры элементов становятся предсказуемыми, несмотря на добавление рамок и отступов.</li>
+                
+            </ul>
+                
+                
+                
+                <h4>В каких случаях использовать "border-box":</h4>
+                Использование "border-box" рекомендуется в следующих случаях: <br><br>
+                <ul>
+                    <li>Разработка адаптивных и гибких макетов: При адаптивном дизайне часто нужно точно контролировать размеры элементов. border-box делает это проще, так как вам не нужно пересчитывать размеры элементов при изменении их рамок или отступов.</li>
+                    <li>Сетки и колонки: Когда элементы должны точно соответствовать заданным размерам для поддержания строгой сеточной структуры, border-box упрощает эту задачу.</li>
+                    <li>Интерфейсы с множеством элементов управления: Компоненты интерфейса, такие как кнопки и поля ввода, часто имеют рамки и внутренние отступы, которые должны выглядеть одинаково независимо от контекста использования.</li>
+                </ul><br><br>
+                <p>Это свойство особенно ценно для фронтенд-разработчиков, стремящихся создать стабильные и предсказуемые макеты без необходимости постоянного перерасчета размеров.</p>
+            </p>
+            <pre><code>
+                {
+                    border: 2px solid;
+                    width: 500px;
+                    height: 500px;
+                    padding: 30px;
+                    box-sizing: content-box;
+                }
+            </code></pre>
+            <p>В данном случае мы задали размер 500px на 500px, но реальный размер 564px на 564px</p>
+            <div class="box" style="box-sizing: content-box;"><img src="https://tyt-doctor.pp.ua/wp-content/uploads/2020/06/poluchit-idealnyj-zagar-pomozhet-spetsificheskij-ratsion.jpg" alt=""></div>
+            <pre><code>
+                {
+                    border: 2px solid;
+                    width: 500px;
+                    height: 500px;
+                    padding: 30px;
+                    box-sizing: border-box;
+                }
+            </code></pre>
+            <p>В данном случае мы задали размер 500px на 500px, и реальный размер 500px на 500px</p>
+            <div class="border-box"><img src="https://tyt-doctor.pp.ua/wp-content/uploads/2020/06/poluchit-idealnyj-zagar-pomozhet-spetsificheskij-ratsion.jpg" alt=""></div>
+
+
+            
         </div>
     </div>
     <div class="footer">
         <div class="container">
-            <p>yevhenkariev@gmail.com</p>
+            
+            <p style="text-align: right;">yevhenkariev@gmail.com</p>
         </div>
     </div>
+    <h3 style="text-align: center;">T3</h3>
+    <div class="container">
+        <ul style="text-align:left ;">
+            <li>создать блок шириной 50% и высотой 400px </li>
+            <li>Добавить внутренние отступы слева и справа (5%) а внешними (20%) и отступами сверху и снизу (внутренние 30px а внешние 40px). </li>
+            <li>Добавьте черную рамку в 5px и добавьте border-box и посмотреть разницу</li>
+        </ul>
+    </div>
+    <div class="div-test">        
+        <img src="https://tyt-doctor.pp.ua/wp-content/uploads/2020/06/poluchit-idealnyj-zagar-pomozhet-spetsificheskij-ratsion.jpg" alt="" style="width: 100%; height: 100%;">
+    </div>
+         
 </body>
 </html>
