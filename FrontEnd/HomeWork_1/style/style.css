@@ -9,20 +9,35 @@
     min-height: 400px;
     margin: 20px auto;
     padding: 20px;
-    background-color: aquamarine;
+    background-color: #CEF9D1;
    
 }
-img{
+.standart-img{
+    width: 80%;
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center; 
+    /* margin: 0 auto; */
+    background-color: #B7F3BB;
+}
+
+.img-200-300{
     width: 200px;
     height: 300px;
-    padding: 20px;
+    margin: 10px;
+}
+.p-text{
+    font-size: 2em; 
+    text-align: justify; 
+    text-indent: 40px;
 }
 
 /* Создаем 3 div (разделы страницы)
 Все блоки делаем шириной 80% и максимальной шириной 1200 и высотой минимум 400 px. Выставляем по центру (margin: 0 auto). 
 Добавляем внутренний отступ 20 px с всех сторон и внешний только вертикальный 20 px
-
-
 В первый блок добавляем текст 
 Во второй картинки с единым размером (200px на 300px) и отступом 20px.
+
 В третьем блоке ссылки на 4 магазина (любых). Ссылки должны быть в виде кликабельных картинок */
