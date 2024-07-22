@@ -1,0 +1,33 @@
+.flex_container{
+    border: 2px solid greenyellow;
+    height: 800px;
+    display: flex;
+    /* Выстраивание по горизонтали */
+    justify-content: center;
+/*     justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-around;
+    justify-content: space-between; */
+
+    /* Выраынивание по вертикали */
+    align-items: center;
+ /*    align-items: flex-end; */
+
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+
+    flex-wrap: wrap;
+
+
+}
+
+
+.flex_item{
+    background-color: antiquewhite;
+    border: 2px solid red;
+    margin: 10px;
+    padding: 30px;
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+}
