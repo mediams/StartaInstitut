@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .flex_container{
     border: 2px solid greenyellow;
     height: 800px;
@@ -20,8 +25,6 @@
 
 
 }
-
-
 .flex_item{
     background-color: antiquewhite;
     border: 2px solid red;
@@ -30,4 +33,71 @@
     height: 100px;
     width: 100px;
     font-size: 50px;
+}
+
+/*  index_part1.html */
+header{
+    margin: 0 auto;
+    max-width: 1512px;
+    background-color: #1ABC9C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 70px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.26px;
+    text-align: center;
+    color: black;
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+/* :nth-child(3){
+    width: 100px;
+} */
+.soc{
+    display: flex;
+    align-items: center;
+}
+.soc a{
+    margin: 0 10px;
+}
+main{
+    margin: 0 auto;
+    max-width: 1512px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.about_us{
+    padding: 218px 70px 218px 62px;
+    text-align: justify;
+
+
+}
+.about_us h1{
+    text-align: center;
+    margin-bottom: 23px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+}
+.about_us p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: justify;
+
 }
