@@ -50,14 +50,17 @@ header{
 }
 nav a{
     text-decoration: none;
-    margin: 0 10px;
-    font-family: Inter;
+/*     margin: 0 10px; */
+    font-family: "Inter", sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 30.26px;
     text-align: center;
     color: black;
 
+}
+nav a:nth-of-type(2) {
+    margin: 0 20px;
 }
 .icon{
     display: flex;
@@ -73,7 +76,7 @@ nav a{
     height: 40px; /* Установите высоту равной высоте ваших изображений */
 }
 .soc a:nth-of-type(2) {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 .soc img {
     width: 40px;
@@ -104,13 +107,13 @@ main{
 .about_us h1{
     text-align: center;
     margin-bottom: 23px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 42.36px;
 }
 .about_us p{
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24.2px;
@@ -128,7 +131,7 @@ section{
 }
 #h2{
     padding-bottom: 50.09px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 35px;
     font-weight: 400;
     line-height: 42.36px;
@@ -178,6 +181,7 @@ section{
     font-weight: 500;
     line-height: 35.57px;
     text-align: left;
+    margin-bottom: 16px;
 }
 
 .section_card_item p {
@@ -186,4 +190,66 @@ section{
     font-weight: 400;
     line-height: 21.79px;
     text-align: left;
+    margin-bottom: 16px;
 }
+
+/* footer */
+footer{
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 124px 70px 124px 70px;
+
+}
+.footer_contact{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+}
+footer h2{
+    margin-bottom: 55px;
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: left;
+    
+}
+/* .contact_item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; 
+} */
+
+ .footer_contact h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: center;
+/*     margin: 36px 0 25px; */
+    color: #999999;
+
+ }
+ .footer_contact p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: center;
+/*     margin: 36px 0 25px; */
+
+ }
+ .contact_item div{
+    /* width: 88px; */
+    height: 48px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+ }
+ .footer_contact a{
+    color: black;
+    text-decoration: none;
+ }
+ #orange{
+    color: #F7654A;
+ }
