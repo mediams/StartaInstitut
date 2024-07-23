@@ -65,13 +65,24 @@ nav a{
 /* :nth-child(3){
     width: 100px;
 } */
-.soc{
+.soc {
     display: flex;
+    justify-content: center;
     align-items: center;
+    height: 40px; /* Установите высоту равной высоте ваших изображений */
 }
 .soc a{
     margin: 0 10px;
 }
+.soc img {
+    width: 40px;
+    height: 40px;
+    display: block; /* Убирает нижний отступ, связанный с inline-block элементами */
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
 main{
     margin: 0 auto;
     max-width: 1512px;
