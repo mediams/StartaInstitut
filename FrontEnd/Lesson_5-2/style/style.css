@@ -16,6 +16,7 @@
 
     /* Выраынивание по вертикали */
     align-items: center;
+    align-items: self-end;
  /*    align-items: flex-end; */
 
     /* flex-direction: row-reverse; */
@@ -71,8 +72,8 @@ nav a{
     align-items: center;
     height: 40px; /* Установите высоту равной высоте ваших изображений */
 }
-.soc a{
-    margin: 0 10px;
+.soc a:nth-of-type(2) {
+    margin: 0 15px;
 }
 .soc img {
     width: 40px;
@@ -88,6 +89,10 @@ main{
     max-width: 1512px;
     display: flex;
     margin: 0 auto;
+    /* margin: 0 auto -5px auto; */
+}
+.main_office img{
+    display: block;
 }
 
 .about_us{
@@ -111,4 +116,74 @@ main{
     line-height: 24.2px;
     text-align: justify;
 
+}
+
+/* section */
+section{
+    max-width: 1512px;
+    margin: 0 auto;
+    padding: 124px 65px 124px 64px;
+    background-color: #DCFFEB;
+
+}
+#h2{
+    padding-bottom: 50.09px;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42.36px;
+    text-align: left;
+    
+}
+.section_card_item{
+    background-image: url(../img/arena.png);
+    width: 436.08px;
+    height: 376.65px;
+}
+.section_card{
+    display: flex;
+    justify-content: center; 
+}
+.section_card div:nth-of-type(2) {
+    margin: 0 37.38px;
+}
+.section_card_item {
+    display: block;
+    color: white;
+    display: flex;
+    justify-content:end;
+    flex-direction: column;
+    padding: 10px 36px;
+}
+
+.section_card_item h2,
+.section_card_item p {
+    /* display: none; */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease-in-out, visibility 0.4s ease-in-out;
+    
+}
+
+.section_card_item:hover h2,
+.section_card_item:hover p {
+    /* display: block; */
+    opacity: 1;
+    visibility: visible;
+}
+
+.section_card_item h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35.57px;
+    text-align: left;
+}
+
+.section_card_item p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
 }
