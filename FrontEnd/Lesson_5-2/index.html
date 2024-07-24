@@ -6,6 +6,7 @@
     <title>StartaInstitut Homework 1</title>
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div>
@@ -19,23 +20,53 @@
     </header>
 
     <div class="div-block-1">
-        <div class="flex_container">
-                <div class="flex_item">1</div>
-                <div class="flex_item">2</div>
-                <div class="flex_item">3</div>
-                <div class="flex_item">4</div>
-                <div class="flex_item">5</div>
-            </div>
-
+        <div class="container">   
+                <p>В <b>HTML и CSS, display: flex;</b> это свойство, которое применяется к контейнеру для того, чтобы использовать гибкую модель размещения элементов. Это очень удобный способ организовать элементы внутри контейнера, особенно когда нужно адаптивно располагать элементы на различных устройствах. Вот основные свойства, которые используются с display: flex;:</p>
+                <ul>
+                    <li><h3>justify-content</h3> 
+                        <ul>
+                            <li>Это свойство определяет, как браузер распределяет пространство между и вокруг элементов по главной оси контейнера (обычно это горизонтальная ось). Оно может принимать следующие значения:</li>
+                            <li>Это свойство определяет, как браузер распределяет пространство между и вокруг элементов по главной оси контейнера (обычно это горизонтальная ось). Оно может принимать следующие значения:</li>
+                            <li><b>flex-start:</b> элементы выравниваются по началу контейнера.</li>
+                            <li><b>flex-end:</b> элементы выравниваются по концу контейнера.</li>
+                            <li><b>center:</b> элементы центрируются в контейнере.</li>
+                            <li><b>space-between:</b> элементы распределяются равномерно в контейнере, первый элемент находится у начала контейнера, последний — у конца.</li>
+                            <li><b>space-around:</b> элементы равномерно распределяются в контейнере с равными отступами вокруг них.</li>
+                            <li><b>space-evenly:</b> элементы распределяются так, что расстояние между любыми двумя соседними элементами, а также до начала и конца контейнера, одинаковое.</li>
+                        </ul>                       
+                        </li>
+                    <li><h3>align-items</h3>
+                        <ul>
+                            <li>Это свойство определяет выравнивание элементов в поперечной оси контейнера (обычно это вертикальная ось). Оно может принимать следующие значения:</li>
+                            <li><b>flex-start:</b> элементы выравниваются по началу поперечной оси.</li>
+                            <li><b>flex-end:</b> элементы выравниваются по концу поперечной оси.</li>
+                            <li><b>center:</b> элементы центрируются по поперечной оси.</li>
+                            <li><b>baseline:</b> элементы выравниваются по базовой линии текста.</li>
+                            <li><b>stretch:</b> элементы растягиваются, чтобы занять всю высоту контейнера (если их собственная высота не задана).</li>
+                        </ul>
+                    </li>
+                    <li><h3>flex-direction</h3>
+                        <li>Это свойство определяет направление основной оси контейнера. Оно влияет на то, как элементы будут следовать друг за другом внутри контейнера. Оно может принимать следующие значения:</li>
+                        <li><b>row:</b> элементы располагаются по горизонтали, как обычный текст.</li>
+                        <li><b>row-reverse:</b> элементы располагаются по горизонтали в обратном порядке.</li>
+                        <li><b>column:</b> элементы располагаются вертикально.</li>
+                        <li><b>column-reverse:</b> элементы располагаются вертикально в обратном порядке.</li>                    
+                    </li>
+                </ul>
+    <p>Эти свойства позволяют создавать разнообразные и гибкие макеты без использования дополнительных элементов-оберток или сложных CSS-хаков. Важно помнить, что <b>flexbox</b> работает лучше всего в <b>одномерных макетах</b> (либо по горизонтали, либо по вертикали). Если вам нужно создать более сложный двумерный макет, возможно, стоит рассмотреть использование CSS Grid.</p>            
+    </div>
     </div>
     <div class="div-block-2">
         <div class="container">
-            <p></p>
+            <p>Шрифты <a href="https://fonts.google.com/selection/embed">fonts.google.com</a></p>
+            <p>Figma шаблон <a href="https://www.figma.com/design/AJN8qEXcwRcGYs9KidgQtG/flex?node-id=1-2">www.figma.com</a></p>
+            <p>семантические теги html <a href="https://www.google.com/search?client=firefox-b-d&sca_esv=3b07b09e3325eaa7&q=%D1%81%D0%B5%D0%BC%D0%B0%D0%BD%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5+%D1%82%D0%B5%D0%B3%D0%B8+html&udm=2&fbs=AEQNm0AF4t9PFUkCSQvxGX20weuxYwkERb-fZe1pyxnqrmRhUEnh-9oX1LI2I1puCLt1u5Fjtq_qTNqniZ8dq9npDEyAlozvW_A0JfcSImWQUo6qsJCL7EbbqF_d6K64apLTNhMza4nOR8DFC32vLHZwNJ24ng_vWj0cFMIBjYo65Gv6ngXdo4MMEIfJLEbyKl6PO8U34Q6dBGjh8ds3ZTeZiSR2OANWK-2fRB4YSnQNroJN-i7gzX0&sa=X&ved=2ahUKEwjkwPnGorqHAxWXhP0HHVNeCHoQtKgLegQIBRAB&biw=2560&bih=1287&dpr=1">Примеры из Гугл</a></p>
+            <p>Игра на изучение flex <a href="https://flexboxfroggy.com/#ru">flexboxfroggy.com</a></p>
         </div>
     </div>
     <div class="div-block-3">
         <div class="container">
-            <p></p>
+            <p><a href="file:///I:/_Starta%20Institut/FrontEnd/Lesson_5-2/index_part1.html">Создание шаблона.</a></p>
         </div>
     </div>
     <div class="div-block-4">
@@ -51,7 +82,13 @@
         
     </div> 
 
-
+    <div class="flex_container">
+        <div class="flex_item">1</div>
+        <div class="flex_item">2</div>
+        <div class="flex_item">3</div>
+        <div class="flex_item">4</div>
+        <div class="flex_item">5</div>
+    </div>
 
 </body>
 </html>
