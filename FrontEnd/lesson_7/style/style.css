@@ -1,0 +1,48 @@
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 10px rgb(204, 204, 204);
+}
+
+input,
+/* textarea{
+    margin-bottom: 20px;
+} */
+form *
+{
+    margin-bottom: 20px;
+}
+form *:last-child{
+    margin-bottom: 0;
+}
+form input{
+    padding: 20px;
+    border: none;
+}
+form textarea{
+    padding: 10px;
+    border: none;
+    resize: none;
+    height: 150px;
+    text-shadow: 2px 2px 2px rgb(168, 98, 98);
+}
+form select{
+    padding: 10px;
+    border: none;
+}
+/* input[type="submit"], input[type="reset"] {
+    color: aqua;  
+    background-color: brown;
+    border-radius: 50px;
+}  */
+
+form > input:last-of-type,
+form > input:nth-last-of-type(2) {
+    color: aqua;
+    background-color: brown;
+    border-radius: 50px;
+}
