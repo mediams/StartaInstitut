@@ -5,7 +5,8 @@
 }
 .block-1{
     margin: 0 auto;
-    width: min(1440px, 90%);
+    /* width: min(1440px, 90%); */
+    width: 1440px;
     height: 900px;
     display: flex;
     background-color: #F8F8F8;
