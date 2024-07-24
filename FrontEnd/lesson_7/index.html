@@ -6,11 +6,12 @@
     <title>StartaInstitut Lesson 7</title>
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <div>
         <div class="container">
-            <h5><a href="/">На главную</a></h5>
+            <h5><a href="../../index.html">На главную</a></h5>
         </div>
     </div>
     <header>
@@ -42,7 +43,7 @@
             </p>
             <p>
                 <h3>Forms</h3>
-                <form action="" method="get">
+                <form class="form_1" action="" method="get">
                     <input type="text" placeholder="name" name="userName">
                     <input type="text" placeholder="nachname" name="userNachname">
                     <input type="number" name="age" id="" placeholder="alt">
@@ -55,8 +56,11 @@
                         <option value="4">Donnerstag</option>
                         <option disabled value="5">Freitag</option>
                     </select>
-                    <input type="submit" value="Send">
-                    <input type="reset">
+                    <div class="button-container">
+                        <input type="submit" value="Send">
+                        <input type="reset">
+                    </div>
+
 
                 </form>
             </p>
@@ -64,12 +68,55 @@
     </div>
     <div class="div-block-2">
         <div class="container">
-            <p></p>
+            <p>
+                <h3>Forms 2</h3>
+                <input checked type="radio" name="gender" id="man">
+                <label for="man">M</label>
+                <input type="radio" name="gender" id="woman">
+                <label for="woman">Ж</label>
+            </p>
+            <p>
+                <input type="checkbox" name="gender" id="man">
+                <label for="man">M</label>
+                <input type="checkbox" name="gender" id="man">
+                <label for="man">M</label>
+                <input type="checkbox" name="gender" id="man">
+                <label for="man">M</label>
+            </p>
+            <p><a href="https://boxicons.com/?query=user">https://boxicons.com/?query=user</a> Icons</p>
+            <p><a href="https://www.lifesetgo.com/how-do-you-write-login/">Урок по созданию формы</a> *-* <a href="https://www.youtube.com/watch?v=hlwlM4a5rxg&t=165s">youtube</a>*-* <a href="https://www.youtube.com/@codehal">Youtube Kanal</a></p>
         </div>
     </div>
     <div class="div-block-3">
         <div class="container">
-            <p></p>
+            <p>
+                <form class="form_2" method="get">
+                    <h2>Login</h2>
+                    <div class="input-box">
+                        <input class="Username" type="text" name="" id="" placeholder="Username">
+                        <!-- <i class='bx bxs-user'></i> -->
+                        <img src="./img/user.png" alt="">
+                        <!-- <i class='bx bxs-user'></i> -->                        
+                    </div>
+                    <div class="input-box">
+                        <input class="Passwort" type="password" name="" id="" placeholder="Passwort">
+                        <img src="./img/pass.png" alt="">
+                    </div>
+                    <div class="remember">
+                        <label for=""><input type="checkbox" name="" id="">Remember me</label>
+                        <a href="">Forgot passwort</a>
+                    </div>
+                    <div class="login">
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="register">
+                        <p>Don't have an account? <a href="#">Register</a></p>
+                    </div>
+
+                    
+
+                </form>
+            </p>
         </div>
     </div>
     <div class="div-block-4">
