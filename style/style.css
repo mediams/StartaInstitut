@@ -86,7 +86,7 @@ a:hover {
 .container{
     margin: 0 auto;
     /* text-align: center; */
-    width: 800px;
+    width: min(800px, 90%);
 }
 .main-container{
     margin: 0 auto;

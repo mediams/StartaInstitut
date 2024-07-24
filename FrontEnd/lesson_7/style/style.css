@@ -67,6 +67,7 @@ form > input:nth-last-of-type(2) {
     background-size: cover;  /* Покрывает весь div, сохраняя пропорции изображения */
     background-repeat: no-repeat;  /* Предотвращает повторение изображения */
     background-position: center;  /* Центрирует изображение в блоке */
+    
 }
 .form_2{
     width: 400px;
@@ -101,9 +102,6 @@ form > input:nth-last-of-type(2) {
     border-radius: 50px;
     border-color: rgba(0, 255, 255, 0.247);
     background-color: rgba(255, 255, 255, 0.315);
-}
-.input-box img{
-
 }
 .Passwort,
 .Username{

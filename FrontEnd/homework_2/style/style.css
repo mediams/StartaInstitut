@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block-1{
+    margin: 0 auto;
+    width: min(1440px, 90%);
+    height: 900px;
+    display: flex;
+    background-color: #F8F8F8;
+}
+.text_price{
+    margin: 104px 0 168px 133px;
+    width: 46%;
+    /* background-color: blue; */
+}
+.text_price .p-1{
+    font-family: "League Spartan";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 44.64px;
+    /* text-align: left; */
+    color: #161515;
+    margin-bottom: 40px;
+
+}
+.text_price .p-2{
+    width: 575px;
+    height: 142px;
+    font-family: "League Spartan";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 49.6px;
+    text-align: left;
+    margin-left: 2px;
+    margin-bottom: 59px;
+
+}
+.h1{
+    font-family: "League Spartan";
+    font-size: 250px;
+    font-weight: 300;
+    line-height: 230px;
+    text-align: left;
+    margin-bottom: 29px;
+
+
+}
+.img-container{
+    margin-top: 4px;
+    margin-left: -3px;
+    margin-bottom: 168px;
+    /* background-color: blueviolet; */
+}
+
+.buy_watch{
+    margin: 0 auto;
+    text-align: center;  
+    width: 278px;
+    height: 82px;
+    font-family: "League Spartan";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 82px;  
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+    border: none;
+    margin-left: 2px;
+}
+.button_price{
+    margin: 0 auto;
+    text-align: center;  
+    width: 146px;
+    height: 83px;
+    font-family: "League Spartan";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 82px;  
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0); 
+    margin-left: -5px;
+    border: none;    
+}
+.block-2{
+    margin: 0 auto;
+    padding-top: 43px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: min(1440px, 90%);
+    height: 900px;
+    /* display: flex; */
+    background-color: #ffffff;
+}
+.p-popular{
+    margin-left: -27px;
+    font-family: "League Spartan";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 44.64px;
+    /* text-align: left; */
+    color: #161515;
+    margin-bottom: -4px;
+
+}
+.p-models{
+    margin-left: -27px;
+    font-family: "League Spartan";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 81px;
+    text-align: center;
+
+}
+.block-grund{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 67px;
+    width: 417px;
+    height: 630px;
+    background-color: #F8F8F8;
+
+    
+}
+.block-grund img {
+    margin: 110px 60px 110px 71px;
+    width: 286px;
+    height: 410px;    
+}
+.block-2 .p-1{
+    font-family: "League Spartan";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 29.44px;
+    /* margin-top: 67px; */
+    text-align: center;
+    margin-bottom: 13px;
+
+}
+.block-2 .p-2{
+    width: 531px;
+    height: 194px;
+    font-family: "League Spartan";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 49.6px;
+    text-align: center;
+    margin-bottom: 85px;
+
+}
+.block-grund-2{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 496px;
+    height: 630px;
+    background-color: #F8F8F8;
+    margin-bottom: 67px;
+
+}
+.block-grund-2 img {
+    margin: 65px 2px;
+    width: 500px;
+    height: 500px;    
+}
+.block-2 .p-3{
+    margin-top: 4px;
+    width: 510px;
+    height: 242px;
+    font-family: "League Spartan";
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 49.6px;
+    text-align: center;
+    margin-bottom: 85px;
+
+}
+.block-2 .p-4{
+    margin: 20px;
+    font-family: "League Spartan";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 59.52px;
+    text-align: center;
+
+}
+.block-2 .p-5{
+    width: 515px;
+    height: 231px;
+    font-family: "League Spartan";
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40.8px;
+    text-align: center;
+    margin-top: 29px;
+}
+.block-2 a{
+    color: rgb(228, 164, 87);
+    font-weight: 600;
+}
