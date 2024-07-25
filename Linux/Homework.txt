@@ -1,4 +1,4 @@
-Д/з
+Д/з Yevhen Kariev
    0 cd /
    1 mkdir /home/animals
    2 mkdir -p /home/animals/dogs/pluto /home/animals/cats /home/animals/fish
