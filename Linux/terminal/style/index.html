@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Личная Консоль</title>
+    <style>
+        body, html {
+            margin: 0;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        iframe {
+            width: 1000px;
+            height: 100%;
+            border: none;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <iframe src="https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192"></iframe>
+    </div>
+    <script>
+        window.onload = function() {
+          var termElement = document.querySelector('.term'); // Получаем доступ к элементу терминала
+          if (termElement) {
+            termElement.style.width = '1000px'; // Задаём ширину 1000 пикселей
+            termElement.style.height = '540px'; // Задаём высоту, если это необходимо
+          }
+        };
+      </script>
+</body>
+</html>

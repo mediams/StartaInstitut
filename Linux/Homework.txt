@@ -1,0 +1,13 @@
+Д/з
+   0 cd /
+   1 mkdir /home/animals
+   2 mkdir -p /home/animals/dogs/pluto /home/animals/cats /home/animals/fish
+   3 touch /home/animals/dogs/pluto /home/animals/cats/garfield /home/animals/fish/nemo
+   4 touch /tmp/adam
+   5 mkdir -p /home/humans
+   6 cp /tmp/adam /home/humans
+   7 touch /tmp/evA
+   8 mv /tmp/evA /opt/eve
+   9 mv /opt/eve /home/humans
+  10 ls /home/humans
+  11 history

@@ -74,6 +74,7 @@
     background-color: bisque;
     position: fixed;
     z-index: 1000;
+    margin-top: -60px;
  }
  nav ul{
     height: 50px;
@@ -86,6 +87,23 @@
     padding: 0 40px;
     list-style: none;
     color: rgb(0, 0, 0);
+    font-weight: 600;
+
+ }
+ .button-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+/*     position: fixed;
+    bottom: 100px;
+    right: 100px; */
+    position: sticky;
+    bottom: 800px;
+    background: red;
+    font-size: 2em;
     font-weight: 600;
 
  }
