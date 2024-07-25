@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartaInstitut Lesson 8</title>
+    <link rel="stylesheet" href="../../style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>О нас</li>
+            <li>Продукты</li>
+            <li>Услуги</li>
+            <li>Контакты</li>
+            <li>Партнеры</li>
+
+        </ul>
+
+    </nav>
+    <div>
+        <div class="container">
+            <h5><a href="../../index.html">На главную</a></h5>
+        </div>
+    </div>
+    <header>
+        <h1>Yevhen Kariev</h1>
+        <h4>Lesson 8 / Позиционированние </h4>
+    </header>
+
+    <div class="div-block-1">
+        <div class="container">
+<!--             <div class="box">
+                <div class="item">1</div>
+                <div class="item-2">2</div>
+                <div class="item-3">3</div>
+                <div class="item-4">4</div>
+            </div> -->
+<!--             <div class="box">
+                <div class="item">2</div>
+                <div class="item-2">2</div>
+            </div>
+            <div class="box">
+                <div class="item">3</div>
+                <div class="item-2">2</div>
+            </div>
+        </div> -->
+<!--         <div class="box">
+            <div class="item">1</div>
+            <div class="item-2">2</div>
+            <div class="item-3">3</div>
+            <div class="item-4">4</div>
+        </div>
+        <div class="box-2">
+            <div class="2item">1</div>
+            <div class="2item-2">2</div>
+            <div class="2item-3">3</div>
+            <div class="2item-4">4</div>
+        </div> -->
+        <div class="box">
+            <div class="item">1</div>
+            <div class="item-2">2</div>
+            <div class="item-3">3</div>
+            <div class="item-4">4</div>
+        </div>
+    </div>
+    <div class="div-block-2">
+        <div class="container">
+            <p></p>
+        </div>
+    </div>
+    <div class="div-block-3">
+        <div class="container">
+            <p></p>
+        </div>
+    </div>
+    <div class="div-block-4">
+        <div class="container">
+            <h2>Доп материалы</h2>
+            <p><a href="https://htmlacademy.ru/blog/css/position">Как позиционировать элементы в CSS. Свойство position</a></p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container" style="padding: 0px;">
+            <p style="text-align: right; margin: -5px;">yevhenkariev@gmail.com</p>
+        </div>
+            
+        
+    </div> 
+    <style>
+        .test-overlay {
+        position: absolute;
+        top: 0; /* Сместим верхний край элемента к центру экрана по вертикали */
+        left: 50%; /* Сместим левый край элемента к центру экрана по горизонтали */
+        width: 1440px; /* Ширина и высота по размеру вьюпорта */
+        height: 3629px;
+        background: url('../img/MacBook Pro - 12.jpg') no-repeat center center / cover; /* Замените путь к вашему изображению */
+        opacity: 0.5; /* Начальная прозрачность */
+        z-index: 1000; /* Убедитесь, что слой наверху */
+        transform: translateX(-50%); /* Смещение элемента на -50% его ширины влево */
+        }
+    </style>
+        <!-- Мой тест див -->
+        <div class="test-overlay">
+            <!-- Мой тест див -->
+        </div>
+        <input type="range" min="0" max="1" step="0.1" value="0.5" id="opacity-slider" style="position: fixed; left: 20px; bottom: 20px; z-index: 1100;">
+    
+        <script>
+            document.getElementById('opacity-slider').addEventListener('input', function(e) {
+            document.querySelector('.test-overlay').style.opacity = e.target.value;
+        });
+        </script>
+        <!-- Мой тест див -->
+</body>
+</html>
