@@ -5,7 +5,7 @@
     background-color: beige;
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 5px 10px 10px rgb(204, 204, 204), 5px 5px 10px 10px rgb(248, 160, 160);;
+    box-shadow: 5px 5px 10px 10px rgb(204, 204, 204), 5px 5px 10px 10px rgb(248, 160, 160);
 }
 
 input,
