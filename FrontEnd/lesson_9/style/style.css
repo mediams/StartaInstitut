@@ -1,0 +1,135 @@
+.p-center{
+    text-align: center;
+}
+.elem{
+    text-align: center;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* transition: all 1s; */
+    transition-property: width, background-color, height;
+    transition-duration: 2500ms;
+    transition-timing-function: ease;
+}
+body:hover .elem{ /* oben */
+    background-color: blueviolet;
+    border-radius: 25px;
+    width: 400px;
+    transition-delay: 1s;
+    /* height: 200px; */
+    /* transition: all 1s; */
+}
+.elem:active{ /* anklicken */
+    background-color: rgb(93, 68, 117);
+}
+.elem2{
+    text-align: center;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* transition: all 1s; */
+    transition-property: width, background-color, height;
+    transition-duration: 2500ms;
+    transition-timing-function: ease;
+}
+body:hover .elem2{ /* oben */
+    background-color: blueviolet;
+    border-radius: 25px;
+    width: 400px;
+    /* height: 200px; */
+    /* transition: all 1s; */
+    transition-timing-function: ease-in-out;
+    transition:  all 3.5s ease 1s; /* all — указывает, что переход применяется ко всем анимируемым свойствам элемента. */
+                                    /* 3.5s — продолжительность анимации.  */
+                                    /* ease — тип временной функции анимации, который контролирует темп анимации. */
+                                    /* 1s — задержка перед началом анимации. */
+}
+.elem3{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    background-color: blue;
+}
+body:hover .elem3{ /* oben */
+    background-color: blueviolet;
+    border-radius: 25px;
+    width: 400px;
+    /* height: 200px; */
+    /* transition: all 1s; */
+    /* transition-timing-function: ease-in-out; */
+    transition:  all 3.5s ease 0s;
+    transform: translate(500px,500px);
+}
+.elem4{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    background-color: blue;
+}
+body:hover .elem4{ /* oben */
+    background-color: blueviolet;
+    border-radius: 25px;
+    width: 400px;
+    /* height: 200px; */
+    /* transition: all 1s; */
+    /* transition-timing-function: ease-in-out; */
+    transition:  all 3.5s ease 0s;
+    transform: scale(0.5, 0.5);
+    transform: scaleX();
+    transform: scaleY();
+}
+.elem5{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    background-color: blue;
+}
+body:hover .elem5{ /* oben */
+    background-color: blueviolet;
+    border-radius: 25px;
+    width: 400px;
+    /* height: 200px; */
+    /* transition: all 1s; */
+    /* transition-timing-function: ease-in-out; */
+    transition:  all 3.5s ease 0s;
+    transform: rotate(180deg);
+}
+.elem6{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    background-color: blue;
+}
+body:hover .elem6{ /* oben */
+    background-color: blueviolet;
+    border-radius: 25px;
+    width: 400px;
+    /* height: 200px; */
+    /* transition: all 1s; */
+    /* transition-timing-function: ease-in-out; */
+    transition:  all 3.5s ease 0s;
+    transform: skew(60deg, 30deg);
+}
+.elem7{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    background-color: blue;
+}
+body:hover .elem7{ /* oben */
+    background-color: blueviolet;
+    border-radius: 25px;
+    width: 400px;
+    /* height: 200px; */
+    /* transition: all 1s; */
+    /* transition-timing-function: ease-in-out; */
+    transition:  all 3.5s ease 0s;
+    transform: matrix(1, -2, 0.5, 3, 0.1, -1);
+}

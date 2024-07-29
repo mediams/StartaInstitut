@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="icon">
+                    <img src="./img/image 1.png" alt="ico">
+                </div>
+                <div class="soc">
+                    <ul>
+                        <li><img src="./img/vk.png" alt="vk"></li>
+                        <li><img src="./img/youtube.png" alt=""></li>
+                        <li><img src="./img/facebook.png" alt="fb"></li>
+                        <li><img src="./img/instagram.png" alt=""></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-content">
+                <div class="content-descript">
+                    <h2><img src="./img/Светильники.png" alt="Светильники"></h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+                    <p><img src="./img/Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do .png" alt=""></p>
+                    <button><!-- Подробнее --></button>
+                </div>
+                <div class="contant-img">
+                    <img src="./img/Rectangle 7.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+<!-- Мой тест див -->
+<style>
+    .test-overlay {
+    position: absolute;
+    top: 0; /* Сместим верхний край элемента к центру экрана по вертикали */
+    left: 50%; /* Сместим левый край элемента к центру экрана по горизонтали */
+    width: 1920px; /* Ширина и высота по размеру вьюпорта */
+    height: 1662px;
+    background: url('./img/Lamp.png') no-repeat center center / cover; /* Замените путь к вашему изображению */
+    opacity: 0.5; /* Начальная прозрачность */
+    z-index: 1000; /* Убедитесь, что слой наверху */
+    transform: translateX(-50%); /* Смещение элемента на -50% его ширины влево */
+    }
+</style>
+    <!-- Мой тест див -->
+    <div class="test-overlay">
+        <!-- Мой тест див -->
+    </div>
+    <input type="range" min="0" max="1" step="0.1" value="0.5" id="opacity-slider" style="position: fixed; left: 20px; bottom: 20px; z-index: 1100;">
+
+    <script>
+        document.getElementById('opacity-slider').addEventListener('input', function(e) {
+        document.querySelector('.test-overlay').style.opacity = e.target.value;
+    });
+    </script>
+    <!-- Мой тест див -->
+</body>
+</html>
