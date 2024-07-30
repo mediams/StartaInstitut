@@ -8,44 +8,36 @@
     max-width: 1296px;
     margin: 0 auto;
     display: flex;
-    /* align-items: center; */
 }
 main nav {
     display: flex;
     align-items: center;
-    width: 100%; /* Или можно использовать 100% для занимания всей ширины родительского элемента */
+    width: 100%; 
     height: 42px;
-    /* background-color: blue; */
     margin-top: 23px;
-    /* margin: 0 auto; Убедитесь, что nav не превышает ширину родительского элемента */
 }
 main nav input{
     width: 192px;
     height: 42px;
     border: none;
-    /* margin: 10px 51px; */
-    font-family: ABeeZee;
+    font-family: ABeeZee, sans-serif;
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
-
-
 }
 main nav ul {
     display: flex;
-    justify-content: space-between; /* Распределение элементов по всей ширине */
+    justify-content: space-between; 
     align-items: center;
-    width: 100%; /* Чтобы ul занимал всю ширину nav */
+    width: 100%;
     padding: 0;
     margin: 0;
     list-style-type: none;
-    font-family: ABeeZee;
+    font-family: ABeeZee, sans-serif;
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
     color: white;
-
-
 }
 .header-content{
     width: 1296px;
@@ -65,9 +57,6 @@ main{
     height: 700px;
     margin: 0 auto;
     background-color: #4FBFA5; 
-    /* display: flex; */
-    /* justify-content: flex-start; */
-    /* align-items: center; */
 }
 .main-content{
     width: 1296px;
@@ -76,7 +65,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: ABeeZee;
+    font-family: ABeeZee, sans-serif;
 }
 h2{
 
@@ -113,10 +102,9 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: antiquewhite; */
 }
 .angebots h2{
-    font-family: ABeeZee;
+    font-family: ABeeZee, sans-serif;
     font-size: 48px;
     font-style: italic;
     font-weight: 400;
@@ -131,35 +119,31 @@ h2{
     height: 475px;
     display: flex;
     justify-content: space-between;
-    /* background-color:chartreuse; */
 }
 .angebots .img img {
-    display: block; /* Убирает нижний отступ, который иногда возникает из-за inline свойства изображений */
-/*     box-shadow: 0 3px 6px rgba(0,0,0,0.16); /* Пример тени: горизонтальное смещение 0, вертикальное 3px, размытие 6px */ 
+    display: block; 
+/*     box-shadow: 0 3px 6px rgba(0,0,0,0.16); */ 
 }
 .angebots .text p {
     display: block;
-    margin: 0; /* Убираем внешние отступы у абзацев */
+    margin: 0; 
     text-align: left;
 }
 .angebots .text {
     width: 306px;
     height: 112px;
-    /* margin-top: -8px; */
-    /* margin-left: 4px; */
-    /* margin: 0 auto; */
     padding: 30px;
-    display: flex;               /* Применяем flexbox */
-    justify-content: center;     /* Центрирование по горизонтали */
-    align-items: center;         /* Центрирование по вертикали */
-    text-align: center;          /* Центрирование текста внутри блока */
-    font-family: ABeeZee;
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    text-align: center;          
+    font-family: ABeeZee, sans-serif;
     font-size: 21px;
     font-style: italic;
     font-weight: 400;
     color: white;
     background-color: #00868A;
-    box-shadow: inset 0 6px 6px -2px rgba(0, 0, 0, 0.363); /* Внутренняя тень, более ограниченная по горизонтали */
+    box-shadow: inset 0 6px 6px -2px rgba(0, 0, 0, 0.363);
 }
 .card-new{
     position: absolute;
@@ -169,13 +153,19 @@ h2{
 .card-new input{
     width: 70px;
     height: 40px;
-    font-family: ABeeZee;
+    font-family: ABeeZee, sans-serif;
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
     border: none;
     color: white;
     background-color: #4FBFA5;
-
+}
+.footer-content{
+    width: 1296px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
