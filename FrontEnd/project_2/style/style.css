@@ -2,12 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 .container{
     max-width: 1296px;
     margin: 0 auto;
     display: flex;
+    /* align-items: center; */
+}
+main nav {
+    display: flex;
     align-items: center;
+    width: 100%; /* Или можно использовать 100% для занимания всей ширины родительского элемента */
+    height: 42px;
+    /* background-color: blue; */
+    margin-top: 23px;
+    /* margin: 0 auto; Убедитесь, что nav не превышает ширину родительского элемента */
+}
+main nav input{
+    width: 192px;
+    height: 42px;
+    border: none;
+    /* margin: 10px 51px; */
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+
+
+}
+main nav ul {
+    display: flex;
+    justify-content: space-between; /* Распределение элементов по всей ширине */
+    align-items: center;
+    width: 100%; /* Чтобы ul занимал всю ширину nav */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+
+
 }
 .header-content{
     width: 1296px;
@@ -16,38 +54,32 @@
     justify-content: space-between;
     align-items: center;
 }
-.soc ul{
+ul{
     display: flex;
     list-style-type: none;
-/*     justify-content: space-between;
-    align-items: center;
-    flex-direction: column; */
 }
-.soc ul li/* :nth-child(2) */{
+.soc ul li{
     margin: 0 28px;
-    /* padding-right: 56px; */
 }
 main{
-    /* width: 1920px; */
     height: 700px;
     margin: 0 auto;
-    /* text-align: center; */
     background-color: #4FBFA5; 
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
 }
 .main-content{
     width: 1296px;
-    height: 700px;
+    height: 627px;
     background-color: #4FBFA5;    ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-top: 40px; */
+    font-family: ABeeZee;
 }
 h2{
-    /* margin-top: -44px; */
-    font-family: ABeeZee;
+
     font-size: 48px;
     font-style: italic;
     font-weight: 400;
@@ -55,26 +87,16 @@ h2{
     margin-left: 3px;
 }
 .content-descript{
-    /* margin-bottom: 40px; */
     width: 50%;
     height: 700px;
-    /* background-color: aquamarine; */
     padding-top: 227px;
     display: flex;
-    /* justify-content: flex-start; */
     align-items: flex-start;
     flex-direction: column;
-
-
-
-
 }
 .content-descript p{
     width: 416px;
-    margin-left: 1px;
-    
-    /* height: 84px; */
-    /* margin-bottom: 40px; */
+    margin-left: 1px;    
 }
 .content-descript button{
     margin-top: 40px;
@@ -82,11 +104,78 @@ h2{
     height: 50px;
     background-color: #00868A;
     background-image: url(../img/подробнее.png);
-
-    background-repeat: no-repeat;  /* Предотвращает повторение изображения */
-    background-position: center;  /* Центрирует изображение в блоке */
+    background-repeat: no-repeat;
+    background-position: center;
     border: none;
+}
+.angebots{
+    margin-top: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.angebots h2{
+    font-family: ABeeZee;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 69px;
+}
+.angebots .img{
+    width: 306px;
+    height: 475px;
+}
+.angebots-img{
+    width: 1296px;
+    height: 475px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color:chartreuse; */
+}
+.angebots .img img {
+    display: block; /* Убирает нижний отступ, который иногда возникает из-за inline свойства изображений */
+/*     box-shadow: 0 3px 6px rgba(0,0,0,0.16); /* Пример тени: горизонтальное смещение 0, вертикальное 3px, размытие 6px */ 
+}
+.angebots .text p {
+    display: block;
+    margin: 0; /* Убираем внешние отступы у абзацев */
+    text-align: left;
+}
+.angebots .text {
+    width: 306px;
+    height: 112px;
+    /* margin-top: -8px; */
+    /* margin-left: 4px; */
+    /* margin: 0 auto; */
+    padding: 30px;
+    display: flex;               /* Применяем flexbox */
+    justify-content: center;     /* Центрирование по горизонтали */
+    align-items: center;         /* Центрирование по вертикали */
+    text-align: center;          /* Центрирование текста внутри блока */
+    font-family: ABeeZee;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+    background-color: #00868A;
+    box-shadow: inset 0 6px 6px -2px rgba(0, 0, 0, 0.363); /* Внутренняя тень, более ограниченная по горизонтали */
+}
+.card-new{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.card-new input{
+    width: 70px;
+    height: 40px;
+    font-family: ABeeZee;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    border: none;
+    color: white;
+    background-color: #4FBFA5;
 
 }
-
 

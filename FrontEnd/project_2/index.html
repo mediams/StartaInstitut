@@ -11,7 +11,9 @@
 </head>
 <body>
     <header>
+
         <div class="container">
+
             <div class="header-content">
                 <div class="icon">
                     <img src="./img/image 1.png" alt="ico">
@@ -30,10 +32,21 @@
     </header>
     <main>
         <div class="container">
+            <nav>
+                <ul>
+                    <li>Светильники</li>
+                    <li>Лампочки</li>
+                    <li>Декоративные</li>
+                    <li>Профессиональные</li>
+                    <li>Контакты</li>
+                    <li><input type="button" value="Связаться"></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
             <div class="main-content">
                 <div class="content-descript">
-                    <h2><img src="./img/Светильники.png" alt="Светильники"></h2>
-                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> -->
+                    <h2><img src="./img/Светильники.png" alt="Светильники"></h2>                    
                     <p><img src="./img/Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do .png" alt=""></p>
                     <button><!-- Подробнее --></button>
                 </div>
@@ -43,31 +56,42 @@
             </div>
         </div>
     </main>
-<!-- Мой тест див -->
-<style>
-    .test-overlay {
-    position: absolute;
-    top: 0; /* Сместим верхний край элемента к центру экрана по вертикали */
-    left: 50%; /* Сместим левый край элемента к центру экрана по горизонтали */
-    width: 1920px; /* Ширина и высота по размеру вьюпорта */
-    height: 1662px;
-    background: url('./img/Lamp.png') no-repeat center center / cover; /* Замените путь к вашему изображению */
-    opacity: 0.5; /* Начальная прозрачность */
-    z-index: 1000; /* Убедитесь, что слой наверху */
-    transform: translateX(-50%); /* Смещение элемента на -50% его ширины влево */
-    }
-</style>
-    <!-- Мой тест див -->
-    <div class="test-overlay">
-        <!-- Мой тест див -->
-    </div>
-    <input type="range" min="0" max="1" step="0.1" value="0.5" id="opacity-slider" style="position: fixed; left: 20px; bottom: 20px; z-index: 1100;">
-
-    <script>
-        document.getElementById('opacity-slider').addEventListener('input', function(e) {
-        document.querySelector('.test-overlay').style.opacity = e.target.value;
-    });
-    </script>
-    <!-- Мой тест див -->
+    <article>
+        <div class="container">
+            <div class="angebots">
+                <h2>Актуальные спецпредложения</h2>
+                <div class="angebots-img">
+                    <div class="img">
+                        <img src="./img/resized_image.png" alt=""><div class="text"><p>Светильники для дома</p><a href="#"><img src="./img/Frame 6.png" alt=""></a></div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/Rectangle 23-1.png" alt=""><div class="text"><p>Оборудование профессионалов</p><img src="./img/Frame 6.png" alt=""></div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/Rectangle 23-2.png" alt=""><div class="text"><p>Декоративные светильники</p><img src="./img/Frame 6.png" alt=""></div><div class="card-new"><input type="button" value="NEW"></div>
+                    </div>
+                    <div class="img">
+                        <img src="./img/Rectangle 23-3.png" alt=""><div class="text"><p>Промышленные светильники</p><img src="./img/Frame 6.png" alt=""></div><div class="card-new"><input type="button" value="NEW"></div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="container">
+            <div class="header-content">
+                <div class="icon">
+                    <!-- <img src="./img/image 1.png" alt="ico"> -->
+                </div>
+                <div class="soc">
+                    <ul>
+                        <li><img src="./img/vk.png" alt="vk"></li>
+                        <li><img src="./img/youtube.png" alt=""></li>
+                        <li><img src="./img/facebook.png" alt="fb"></li>
+                        <li><img src="./img/instagram.png" alt=""></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </article>
 </body>
 </html>
