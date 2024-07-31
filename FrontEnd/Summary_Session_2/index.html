@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Session 2</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-form">
+        <form action="#" class="form" method="get">
+            <div class="text-h1">
+                <h1>Tour Booking Form</h1>
+            </div>
+            <div class="name">
+                <h2>Name</h2>
+                <input type="text" id="" placeholder="First Name" name="first-name">
+                <input type="text" id="" placeholder="Last Name" name="last-name">
+            </div>
+            <div class="email">
+                <h2>Email</h2>
+                <input type="email" id="" placeholder="name@mail.ru" name="email">
+            </div>
+            <div class="phone">
+                <h2>Phone</h2>
+                <input type="number" id="" placeholder="###-###-####" name="phone">
+            </div>
+            <div class="date-to-plane">
+                <h2>When are you planning to vizit?</h2>
+                <input type="date" id="" placeholder="" name="date">
+            </div>
+            <div class="how-many">
+                <h2>How many people are in your group?</h2>
+                <input type="number" id="" placeholder="" name="people">
+            </div>
+            <div class="country">
+                <h2>Which tour are you most interested in?</h2>
+                <select name="country" id="" placeholder="">
+                    <option value="Europa">Europa</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Afrika">Afrika</option>
+                    <option value="" selected hidden>*Please select*</option>
+                </select>
+            </div>
+            <div class="best-contact">
+                <h2>What is the best way to contact you?</h2>
+                <div class="checkbox-container">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="contact" value="phone"> Phone
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="contact" value="email"> Email
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="contact" value="other"> Other
+                    </label>
+                </div>                
+            </div>
+            <div class="time">
+                <h2>If phone, when is the best time of day for a call-back?</h2>
+                <label class="checkbox-label"><input type="radio" name="time" id="" value="8-11 AM"> 8-11 AM</label>
+                <label class="checkbox-label"><input type="radio" name="time" id="" value="12-4 AM"> 12-4 AM</label>
+                <label class="checkbox-label"><input type="radio" name="time" id="" value="6-10 AM"> 6-10 AM</label>
+            </div>
+            <div class="comment">
+                <h2>Anything else we should know?</h2>
+                <textarea name="comment" id=""></textarea>
+            </div>
+            <input type="submit" value="Send" class="submit-button">
+        </form>
+    </div>
+</body>
+</html>

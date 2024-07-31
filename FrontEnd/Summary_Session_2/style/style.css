@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Inter", sans-serif;
+}
+.main-form{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 643px;
+    height: 1296px;
+    padding: 18px 28px;
+    text-align: center;
+    /* border: 2px solid grey; */
+}
+form{
+    width: 100%;
+    padding: 6px 35px;
+    box-shadow: 0 1px 16px #3263CD;
+    border-radius: 10px;
+}
+.text-h1 {
+    margin-top: 16px;
+    width: 511px;
+    height: 260px;
+    background-color: #87CEFA;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-h1 h1 {
+    margin: 0;
+    color: #fff;
+}
+h2{
+    margin-top: 5px;
+    font-size: 14.61px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #808080;
+}
+input{
+    margin-top: 12px;
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 5px 3px;
+    border-color: #6b6b6b50;
+    color: rgb(0, 0, 0);
+}
+select{
+    margin-top: 12px;
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 5px 3px;
+    border-color: #6b6b6b50;
+    color: rgb(0, 0, 0);
+}
+.checkbox-container input {
+    width: unset;
+    height: unset;
+    margin: 3px 0 10px 0;
+}
+.checkbox-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 8px;
+}
+.checkbox {
+    display: block;
+    width: auto;
+    margin-right: 8px; 
+}
+label {
+    margin: 0;
+    font-size: 15px; 
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+}
+.checkbox-label {
+    display: block;
+    margin-bottom: 5px;
+}
+.time input {
+    width: unset;
+    height: unset;
+    margin: 10px 0 5px 0;
+}
+textarea{
+    margin-top: 14px;
+    width: 100%;
+    height: 56px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    resize: none;
+    padding: 5px 3px;
+}
+.submit-button{
+    width: 157px;
+    height: 42px;
+    padding: 10px 3.21px 10px 9.79px;
+    border-radius: 5px;
+    background-color: #3263CD;
+    border: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 15.38px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+
+
