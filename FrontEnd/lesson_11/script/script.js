@@ -3,7 +3,7 @@ console.log(5+5)
 document.write(1+2) */
 
 
-// alert('Hello!')
+alert('Hello!')
 
 
 /* let a=12
@@ -69,10 +69,14 @@ console.log(`rgb(${r}, ${g}, ${b})`) */
 
 
 // ---------------------------------------------Написать программу, которая запрашивает у пользователя его возраст (в годах) и выводит, сколько ему лет.
-/* const age = prompt('Gib dein alt')
+const age = prompt('Gib dein alt')
 const dateNow=new Date().getFullYear();
 console.log(`Du bist ${age} Jahre alt.`)
-console.log(`Sie sind ${dateNow-age} geboren.`) */
+document.write('<h1>Alle Informationen in der JS-Datei.</h1></br>')
+console.log(`Sie sind ${dateNow-age} geboren.`)
+document.write(`Du bist ${age} Jahre alt.</br>`)
+document.write(`Sie sind ${dateNow-age} geboren.`)
+
 // ***********************************************
 
 
