@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-2</title>
+</head>
+<body>
+    <button id="loadScriptButton">Запустить скрипт</button>
+    <script>
+        document.getElementById('loadScriptButton').addEventListener('click', function() {
+            // Сохраняем состояние в localStorage
+            localStorage.setItem('scriptLoaded', 'true');
+            // Перезагружаем страницу
+            location.reload();
+        });
+
+        // Проверяем состояние и загружаем скрипт, если страница была перезагружена
+        if (localStorage.getItem('scriptLoaded') === 'true') {
+            // Удаляем состояние из localStorage
+            localStorage.removeItem('scriptLoaded');
+            // Создаем новый элемент <script>
+            const script = document.createElement('script');
+            script.src = './script/script.js';
+            // Добавляем элемент <script> в конец тела документа
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+</html>
