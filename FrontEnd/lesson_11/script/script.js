@@ -3,7 +3,7 @@ console.log(5+5)
 document.write(1+2) */
 
 
-alert('Hello!')
+// alert('Hello!')
 
 
 /* let a=12
@@ -69,13 +69,13 @@ console.log(`rgb(${r}, ${g}, ${b})`) */
 
 
 // ---------------------------------------------Написать программу, которая запрашивает у пользователя его возраст (в годах) и выводит, сколько ему лет.
-const age = prompt('Gib dein alt')
+/* const age = prompt('Gib dein alt')
 const dateNow=new Date().getFullYear();
 console.log(`Du bist ${age} Jahre alt.`)
 document.write('<h1>Alle Informationen in der JS-Datei.</h1></br>')
 console.log(`Sie sind ${dateNow-age} geboren.`)
 document.write(`Du bist ${age} Jahre alt.</br>`)
-document.write(`Sie sind ${dateNow-age} geboren.`)
+document.write(`Sie sind ${dateNow-age} geboren.`) */
 
 // ***********************************************
 
@@ -120,3 +120,121 @@ console.log('numb'>'numa') // true
 console.log('a'<'z') //true */
 // ********************************************
 
+
+// ------------------------------------------------------DOP
+// Напишите программу, которая запрашивает у пользователя его имя и возраст, а затем выводит сообщение, например: Hallo Name, du bist age Jahre alt.
+/* const name=prompt('Giben Sie Ihren Namen:')
+const age=prompt('Wie alt sind Sie:')
+console.log(`Hallo ${name}, du bist ${age} Jahre alt.`) */
+
+// Напишите программу, которая считывает два числа через prompt и выводит их произведение и разность.
+/* const num1=+prompt('Gib nummer 1:')
+const num2=+prompt('Gib nummer 2:')
+console.log(`Nemmer sind ${num1} und ${num2}, Multiplikation ist gleich ${num1*num2} und разность ist gleich ${num1-num2}`) */
+
+// Напишите программу, которая запрашивает у пользователя два числа и сравнивает их, выводя результаты всех возможных операций сравнения (>, <, ==, === и т.д.).
+/* const num1=+prompt('Gib nummer 1:')
+const num2=+prompt('Gib nummer 2:')
+console.log(`Zählen ${num1}>${num2} ist ${num1>num2}`)
+console.log(`Zählen ${num1}<${num2} ist ${num1<num2}`)
+console.log(`Zählen ${num1}==${num2} ist ${num1==num2}`)
+console.log(`Zählen ${num1}===${num2} ist ${num1===num2}`)
+console.log(`Zählen ${num1}!=${num2} ist ${num1!=num2}`)
+console.log(`Zählen ${num1}!==${num2} ist ${num1!==num2}`) */
+
+
+// Создайте программу, которая запрашивает у пользователя значения r, g и b, а затем выводит строку в формате rgb(r, g, b) с использованием как конкатенации, так и интерполяции.
+/* const r=+prompt('Gib R:')
+const g=+prompt('Gib g:')
+const b=+prompt('Gib b:')
+console.log(`rgb(${r}, ${g}, ${b})`) */
+
+// Напишите программу, которая запрашивает число у пользователя и выводит его квадрат.
+/* const num1=+prompt('Gib nummer 1:')
+console.log(num1**2) */
+
+
+// Напишите программу, которая сравнивает две строки, введенные пользователем, и выводит, равны ли они, и какая из них больше (в лексикографическом порядке).
+/* const num1=prompt('Gib nummer 1:')
+const num2=prompt('Gib nummer 2:')
+console.log(`Zählen ${num1}==${num2} ist ${num1==num2}`)
+if(num1>num2) {
+    console.log(`${num1} ist > als ${num2} `);
+}    
+else if (num1<num2){
+    console.log(`${num1} ist < als ${num2} `);
+}    
+else {
+    console.log(`${num1} ist gleich ${num2} `);
+} */
+    
+
+/* const str1 = prompt('Gib die erste Zeichenkette ein:');
+const str2 = prompt('Gib die zweite Zeichenkette ein:');
+console.log(`Zeichenketten ${str1} == ${str2} ist ${str1 == str2}`);
+if (str1 > str2) {
+    console.log(`${str1} ist lexikographisch größer als ${str2}`);
+} else if (str1 < str2) {
+    console.log(`${str1} ist lexikographisch kleiner als ${str2}`);
+} else {
+    console.log(`${str1} ist gleich ${str2}`);
+}
+ */
+
+// Напишите программу, которая выводит различные строки и результаты арифметических операций не только в консоль, но и на страницу с помощью document.write.
+/* const num1=+prompt('Gib nummer 1:')
+const num2=+prompt('Gib nummer 2:')
+console.log(`${num1} und ${num2}`)
+document.write(`${num1} und ${num2}`) */
+
+
+// Задание 1: Определение четности числа  ---- Напишите программу, которая запрашивает у пользователя число и определяет, является ли оно четным или нечетным. Выведите результат в консоль.
+/* const nummer=+prompt('Gib eine Zahl:')
+console.log(`Die Zahl ${nummer} ist четное: ${nummer%2===0}`)
+if (nummer===0){
+    console.log('Вы вели 0, не шутите так...')
+}
+else if (nummer%2===0){
+    console.log(`Число ${nummer} четное`)
+}
+else {
+    console.log(`Число ${nummer} нечетное`)
+} */
+
+
+
+// Напишите программу, которая запрашивает у пользователя три числа и выводит наибольшее из них. Если числа равны, выведите соответствующее сообщение.
+
+
+/* const num1=+prompt('Введите первое число:')
+const num2=+prompt('Введите второе число:')
+const num3=+prompt('ведите третье число:')
+
+if (num1>num2){
+    if (num1>num3){
+        console.log(`Das größte Zahl ist ${num1}.`)
+    }
+}
+else if (num2>num3){
+    console.log(`Das größte Zahl ist ${num2}.`)
+}
+else
+console.log(`Das größte Zahl ist ${num3}.`) */
+
+
+// ---------------------------------------ver2
+/* const num1 = +prompt('Введите первое число:');
+const num2 = +prompt('Введите второе число:');
+const num3 = +prompt('Введите третье число:');
+
+console.log(`Вы ввели числа: ${num1}, ${num2}, ${num3}.`)
+
+if (num1 === num2 && num2 === num3) {
+    console.log('Alle drei Zahlen sind gleich.');
+} else if (num1 >= num2 && num1 >= num3) {
+    console.log(`Das größte Zahl ist ${num1}.`);
+} else if (num2 >= num1 && num2 >= num3) {
+    console.log(`Das größte Zahl ist ${num2}.`);
+} else {
+    console.log(`Das größte Zahl ist ${num3}.`);
+} */
