@@ -254,3 +254,52 @@ for(let i=0; i<products.length; i++){
     }
 }
 
+
+console.log('Создайте объект city1 (var city1 = {}), укажите у него свойства name (название города, строка) со значением «ГородN» и population (населенность города, число) со значением 10 млн.');
+
+////////////////////////////******************************************************************************************* */
+
+// 1) Создайте объект city1 (var city1 = {}), укажите у него свойства name (название города, строка) со 
+// значением «ГородN» и population (населенность города, число) со значением 10 млн.
+
+let city_1 = {
+    cityName: 'ГородN',
+    population: 10000000
+}
+console.log(city_1);
+
+// 2) Создайте объект city2 через нотацию {name: "ГородM", population: 1e6}.
+let city_2 ={
+    cityName: 'ГородM',
+    population: 16000000
+}
+console.log(city_2);
+
+console.log(city_1.cityName + ' '+ city_2.cityName);
+
+
+// 4) У нас есть объект, в котором хранятся зарплаты нашей команды:
+
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130,
+    Text: 'text',
+    note: "not a number", // Пример текстового значения
+    anotherNote: "another text" // Еще одно текстовое значение
+}
+// Напишите код для суммирования всех зарплат и сохраните результат в переменной sum. Должно получиться 390.
+// Если объект salaries пуст, то результат должен быть 0.
+
+sum =0;
+let notSum = ''; // Инициализируем notSum как пустую строку
+for (let i in salaries){
+    console.log(typeof i);
+    
+    if(typeof salaries[i]==='number'){
+        sum += salaries[i];
+    }else {        
+        notSum += salaries[i] +'/ ';}
+}
+console.log(sum);
+console.log(notSum);
