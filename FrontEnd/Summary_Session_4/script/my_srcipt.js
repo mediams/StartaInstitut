@@ -148,7 +148,7 @@ function findMax_1(){
     console.log(max);
     
 }
-findMax_1()
+// findMax_1()
 
 function findMax_2(){
     arr_new =[];
@@ -173,4 +173,19 @@ function findMax_2(){
     
 }
 // console.log(findMax_2([1, 3, 11, 7, 2, 9]));
-findMax_2()
+// findMax_2()
+
+
+
+
+// Функция, проверяющая, является ли число простым:
+// Задание: Создайте функцию isPrime, которая принимает число и возвращает true, если число простое, и false в противном случае. Выведите результат проверки числа, вводимого через prompt, в консоль.
+
+function isPrime(number){
+    console.log(number);    
+    if(number%2===0) return true;
+    if(number%2===0) return false
+    
+}
+let number=isPrime(+prompt('Функция, проверяющая, Делится ли число на два без остатка \nВведите число:'))
+console.log('... '+number);
