@@ -151,4 +151,5 @@ form > input:nth-last-of-type(2) {
 }
 textarea{
     padding: 15px;
+    border: none;
 }
