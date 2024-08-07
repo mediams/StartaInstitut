@@ -149,3 +149,6 @@ form > input:nth-last-of-type(2) {
     justify-content: center; 
     color: white;
 }
+textarea{
+    padding: 15px;
+}
